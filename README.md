@@ -1,7 +1,11 @@
 FMBMParallaxView
 ================
 
-**FMBMImageView usage**
+Complete UIImageView subclass with parallax scrolling created during the first world [SwiftCrunch](http://swiftcrunch.com/) hackaton!
+
+![Gif with results](https://raw.githubusercontent.com/JakubMazur/FMBMParallaxView/master/assets/results.gif)
+
+**FMBMImageView example usage**
 
 ```swift
 class ExampleViewController: UIViewController, UIScrollViewDelegate {
