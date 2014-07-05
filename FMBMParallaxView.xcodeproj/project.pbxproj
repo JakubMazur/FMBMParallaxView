@@ -18,6 +18,7 @@
 		8E0C90251968521500C98004 /* FMBMImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C90241968521500C98004 /* FMBMImageView.swift */; };
 		8E0C90271968527400C98004 /* 2014.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C90261968527400C98004 /* 2014.png */; };
 		8E0C9029196852AF00C98004 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C9028196852AF00C98004 /* ExampleViewController.swift */; };
+		91994B1919686B44007F73C9 /* Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91994B1819686B44007F73C9 /* Resize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		8E0C90241968521500C98004 /* FMBMImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMBMImageView.swift; sourceTree = "<group>"; };
 		8E0C90261968527400C98004 /* 2014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2014.png; sourceTree = "<group>"; };
 		8E0C9028196852AF00C98004 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		91994B1819686B44007F73C9 /* Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		8CB0397319682961004C5CA4 /* FMBMParallaxView */ = {
 			isa = PBXGroup;
 			children = (
+				91994B1819686B44007F73C9 /* Resize.swift */,
 				8422522419682D3400E399C3 /* Managers */,
 				8CB0397619682961004C5CA4 /* AppDelegate.swift */,
 				8CB0397B19682961004C5CA4 /* ExampleCollectionViewController.swift */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB0399919684B1F004C5CA4 /* ExampleCollectionViewController.swift in Sources */,
+				91994B1919686B44007F73C9 /* Resize.swift in Sources */,
 				8CB0399A19684B1F004C5CA4 /* ExampleCollectionViewCell.swift in Sources */,
 				8422522619682D4500E399C3 /* ContentManager.swift in Sources */,
 				8CB0397719682961004C5CA4 /* AppDelegate.swift in Sources */,
