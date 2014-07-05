@@ -10,6 +10,8 @@ import UIKit
 
 class ExampleCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet var downloadedImage : UIImageView
+    
     init(frame: CGRect) {
         super.init(frame: frame)
     }
