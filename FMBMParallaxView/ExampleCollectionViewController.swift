@@ -35,7 +35,12 @@ class ExampleCollectionViewController: UIViewController, UICollectionViewDelegat
             println(imageDataSource[i])
         }
         
-        collectionView.reloadData();
+        
+        var manager : ContentManager
+        manager = ContentManager()
+        imageDataSource = manager.getDataUrls()
+        
+        collectionView.reloadData()
 
     }
     
@@ -49,6 +54,14 @@ class ExampleCollectionViewController: UIViewController, UICollectionViewDelegat
         
         var cell = collectionView .dequeueReusableCellWithReuseIdentifier("MyExampleCell", forIndexPath: indexPath) as ExampleCollectionViewCell
         //cell.imageView.image = UIImage(named:imageDataSource[indexPath.row])
+        var manager : ContentManager
+        manager = ContentManager()
+        manager.downloadDataWithUrlString (imageDataSource[indexPath.row]) { (data: NSData) in
+            dispatch_async(dispatch_get_main_queue()) {
+                cell.downloadedImage.image = UIImage(data: data)
+                
+            }
+        }
         cell.backgroundColor = UIColor.redColor()
         return cell
     }
