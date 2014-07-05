@@ -45,7 +45,7 @@ class ExampleCollectionViewController: UIViewController, UICollectionViewDelegat
     func collectionView(collectionView: UICollectionView!, cellForItemAtIndexPath indexPath: NSIndexPath!) -> UICollectionViewCell! {
         
         var cell = collectionView .dequeueReusableCellWithReuseIdentifier("MyExampleCell", forIndexPath: indexPath) as ExampleCollectionViewCell
-        //cell.imageView.image = UIImage(named:imageDataSource[indexPath.row])
+        cell.downloadedImage.image = UIImage(named: "wwdc 2014.png")
         var manager = ContentManager()
         manager.downloadDataWithUrlString (imageDataSource[indexPath.row]) { (data: NSData) in
             dispatch_async(dispatch_get_main_queue()) {
