@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8422522619682D4500E399C3 /* ContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422522519682D4500E399C3 /* ContentManager.swift */; };
 		8CB0397719682961004C5CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397619682961004C5CA4 /* AppDelegate.swift */; };
 		8CB0397A19682961004C5CA4 /* FMBMParallaxView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397819682961004C5CA4 /* FMBMParallaxView.xcdatamodeld */; };
-		8CB0397C19682961004C5CA4 /* ExampleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397B19682961004C5CA4 /* ExampleCollectionViewController.swift */; };
-		8CB0397F19682961004C5CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0397D19682961004C5CA4 /* Main.storyboard */; };
 		8CB0398119682961004C5CA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0398019682961004C5CA4 /* Images.xcassets */; };
 		8CB0398D19682961004C5CA4 /* FMBMParallaxViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0398C19682961004C5CA4 /* FMBMParallaxViewTests.swift */; };
-		8CB03997196835FE004C5CA4 /* ExampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB03996196835FE004C5CA4 /* ExampleCollectionViewCell.swift */; };
+		8CB03998196849AD004C5CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0397D19682961004C5CA4 /* Main.storyboard */; };
+		8CB0399919684B1F004C5CA4 /* ExampleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397B19682961004C5CA4 /* ExampleCollectionViewController.swift */; };
+		8CB0399A19684B1F004C5CA4 /* ExampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB03996196835FE004C5CA4 /* ExampleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8422522519682D4500E399C3 /* ContentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentManager.swift; sourceTree = "<group>"; };
 		8CB0397119682961004C5CA4 /* FMBMParallaxView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMBMParallaxView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB0397519682961004C5CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CB0397619682961004C5CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8422522419682D3400E399C3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8422522519682D4500E399C3 /* ContentManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
 		8CB0396819682961004C5CA4 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +89,7 @@
 		8CB0397319682961004C5CA4 /* FMBMParallaxView */ = {
 			isa = PBXGroup;
 			children = (
+				8422522419682D3400E399C3 /* Managers */,
 				8CB0397619682961004C5CA4 /* AppDelegate.swift */,
 				8CB0397B19682961004C5CA4 /* ExampleCollectionViewController.swift */,
 				8CB03996196835FE004C5CA4 /* ExampleCollectionViewCell.swift */,
@@ -195,7 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB0397F19682961004C5CA4 /* Main.storyboard in Resources */,
+				8CB03998196849AD004C5CA4 /* Main.storyboard in Resources */,
 				8CB0398119682961004C5CA4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,8 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB0397C19682961004C5CA4 /* ExampleCollectionViewController.swift in Sources */,
-				8CB03997196835FE004C5CA4 /* ExampleCollectionViewCell.swift in Sources */,
+				8CB0399919684B1F004C5CA4 /* ExampleCollectionViewController.swift in Sources */,
+				8CB0399A19684B1F004C5CA4 /* ExampleCollectionViewCell.swift in Sources */,
+				8422522619682D4500E399C3 /* ContentManager.swift in Sources */,
 				8CB0397719682961004C5CA4 /* AppDelegate.swift in Sources */,
 				8CB0397A19682961004C5CA4 /* FMBMParallaxView.xcdatamodeld in Sources */,
 			);
@@ -405,6 +417,7 @@
 				8CB0399219682961004C5CA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CB0399319682961004C5CA4 /* Build configuration list for PBXNativeTarget "FMBMParallaxViewTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				8CB0399519682961004C5CA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
