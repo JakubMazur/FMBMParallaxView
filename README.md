@@ -4,11 +4,26 @@ FMBMParallaxView
 **FMBMImageView usage**
 
 ```
-func scrollViewDidScroll(scrollView: UIScrollView!) {
-    let deltaX = scrollView.contentSize.width - imageView.frame.width
-    let deltaY = scrollView.contentSize.height - imageView.frame.height
+class ExampleViewController: UIViewController, UIScrollViewDelegate {
+
+    @IBOutlet var imageView: FMBMImageView
+    @IBOutlet var scrollView: UIScrollView
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        imageView.clipsToBounds = true
+        scrollView.contentSize = CGSizeMake(400, 400)
+        scrollView.delegate = self
+    }
     
-    imageView.horizontalOffset = scrollView.contentOffset.y / deltaX
-    imageView.verticalOffset = scrollView.contentOffset.x / deltaY
+    func scrollViewDidScroll(scrollView: UIScrollView!) {
+        let deltaX = scrollView.contentSize.width - scrollView.frame.width
+        let deltaY = scrollView.contentSize.height - scrollView.frame.height
+        
+        imageView.horizontalOffset = scrollView.contentOffset.y / deltaX
+        imageView.verticalOffset = scrollView.contentOffset.x / deltaY
+    }
+
 }
 ```
