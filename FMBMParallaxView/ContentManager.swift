@@ -34,9 +34,9 @@ class ContentManager {
         return urls;
     }
     
-    func downloadData (completionClosure: (data :NSData) ->()){
+    func downloadDataWithUrlString (urlString: String, completionClosure: (data :NSData) ->()){
         let session = NSURLSession.sharedSession()
-        let url:NSURL = NSURL.URLWithString("http://placekitten.com/g/200/300")
+        let url:NSURL = NSURL.URLWithString(urlString)
         let urlRequest = NSURLRequest(URL:url)
         session.dataTaskWithRequest(urlRequest,
             completionHandler: {(data: NSData!,
