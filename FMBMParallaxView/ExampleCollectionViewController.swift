@@ -52,7 +52,7 @@ class ExampleCollectionViewController: UIViewController, UICollectionViewDelegat
         manager.downloadDataWithUrlString (imageDataSource[indexPath.row]) { (data: NSData) in
             dispatch_async(dispatch_get_main_queue()) {
                 cell.downloadedImage.image = UIImage(data: data)
-                UIView.animateWithDuration(0.1, animations: {
+                UIView.animateWithDuration(0.3, animations: {
                     cell.downloadedImage.alpha = 1.0
                     })
             }
