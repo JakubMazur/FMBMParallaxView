@@ -29,7 +29,7 @@ class ContentManager {
         for val in 1..10
             {
                 urls.append("http://lorempixel.com/400/200/sports/\(val)/")
-                println("http://lorempixel.com/400/200/sports/\(val)/")
+                println("http://lorempixel.com/800/400/sports/\(val)/")
             }
         return urls;
     }
