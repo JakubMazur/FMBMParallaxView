@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8422522619682D4500E399C3 /* ContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422522519682D4500E399C3 /* ContentManager.swift */; };
+		8429EDE319686E49002B0022 /* swift.png in Resources */ = {isa = PBXBuildFile; fileRef = 8429EDE219686E49002B0022 /* swift.png */; };
 		8CB0397719682961004C5CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397619682961004C5CA4 /* AppDelegate.swift */; };
 		8CB0397A19682961004C5CA4 /* FMBMParallaxView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397819682961004C5CA4 /* FMBMParallaxView.xcdatamodeld */; };
 		8CB0398119682961004C5CA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0398019682961004C5CA4 /* Images.xcassets */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		8422522519682D4500E399C3 /* ContentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentManager.swift; sourceTree = "<group>"; };
+		8429EDE219686E49002B0022 /* swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swift.png; sourceTree = "<group>"; };
 		8CB0397119682961004C5CA4 /* FMBMParallaxView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMBMParallaxView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB0397519682961004C5CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CB0397619682961004C5CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				8CB0397819682961004C5CA4 /* FMBMParallaxView.xcdatamodeld */,
 				8E0C90241968521500C98004 /* FMBMImageView.swift */,
 				8E0C9028196852AF00C98004 /* ExampleViewController.swift */,
+				8429EDE219686E49002B0022 /* swift.png */,
 				8E0C90261968527400C98004 /* 2014.png */,
 				8CB0397419682961004C5CA4 /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB03998196849AD004C5CA4 /* Main.storyboard in Resources */,
+				8429EDE319686E49002B0022 /* swift.png in Resources */,
 				8E0C90271968527400C98004 /* 2014.png in Resources */,
 				8CB0398119682961004C5CA4 /* Images.xcassets in Resources */,
 			);

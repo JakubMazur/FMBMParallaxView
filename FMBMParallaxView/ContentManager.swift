@@ -28,8 +28,8 @@ class ContentManager {
         urls = String[]()
         for val in 1..10
             {
-                urls.append("http://lorempixel.com/400/200/sports/\(val)/")
-                println("http://lorempixel.com/800/400/sports/\(val)/")
+                urls.append("http://lorempixel.com/400/400/sports/\(val)/")
+                println("http://lorempixel.com/400/400/sports/\(val)/")
             }
         return urls;
     }

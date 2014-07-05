@@ -47,15 +47,17 @@ class ExampleCollectionViewController: UIViewController, UICollectionViewDelegat
         var cell = collectionView .dequeueReusableCellWithReuseIdentifier("MyExampleCell", forIndexPath: indexPath) as ExampleCollectionViewCell
         cell.downloadedImage.image = UIImage(named: "wwdc 2014.png")
         var manager = ContentManager()
-        cell.downloadedImage.image = UIImage(named: "2014.png")
-
+        cell.downloadedImage.image = UIImage(named: "swift.png")
+        cell.downloadedImage.alpha = 0.0;
         manager.downloadDataWithUrlString (imageDataSource[indexPath.row]) { (data: NSData) in
             dispatch_async(dispatch_get_main_queue()) {
                 cell.downloadedImage.image = UIImage(data: data)
-                
+                UIView.animateWithDuration(0.1, animations: {
+                    cell.downloadedImage.alpha = 1.0
+                    })
             }
         }
-        cell.backgroundColor = UIColor.redColor()
+        cell.backgroundColor = UIColor.blackColor()
         return cell
     }
     
