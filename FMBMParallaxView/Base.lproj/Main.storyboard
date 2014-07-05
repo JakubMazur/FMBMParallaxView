@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5bW-Tr-MWt">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
     </dependencies>
     <scenes>
         <!--Example Collection View Controller-->
@@ -63,5 +63,40 @@
             </objects>
             <point key="canvasLocation" x="105" y="141"/>
         </scene>
+        <!--Example View Controller-->
+        <scene sceneID="lc6-SN-D6f">
+            <objects>
+                <viewController id="5bW-Tr-MWt" customClass="ExampleViewController" customModule="FMBMParallaxView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3F7-3i-5n6"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tlt-JO-rD7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qv8-YE-90v">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wwdc 2014.png" translatesAutoresizingMaskIntoConstraints="NO" id="h0p-hj-Bmz" customClass="FMBMImageView" customModule="FMBMParallaxView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="218" height="350"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OqI-mW-cml">
+                                <rect key="frame" x="0.0" y="364" width="67" height="67"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="h0p-hj-Bmz" id="Kmy-t5-BRV"/>
+                        <outlet property="scrollView" destination="OqI-mW-cml" id="GfK-aa-ZDq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OOv-ZO-BtW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="-470"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="wwdc 2014.png" width="2880" height="1800"/>
+    </resources>
 </document>
