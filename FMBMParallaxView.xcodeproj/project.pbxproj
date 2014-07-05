@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		8CB0397719682961004C5CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397619682961004C5CA4 /* AppDelegate.swift */; };
 		8CB0397A19682961004C5CA4 /* FMBMParallaxView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397819682961004C5CA4 /* FMBMParallaxView.xcdatamodeld */; };
-		8CB0397C19682961004C5CA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397B19682961004C5CA4 /* ViewController.swift */; };
+		8CB0397C19682961004C5CA4 /* ExampleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397B19682961004C5CA4 /* ExampleCollectionViewController.swift */; };
 		8CB0397F19682961004C5CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0397D19682961004C5CA4 /* Main.storyboard */; };
 		8CB0398119682961004C5CA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0398019682961004C5CA4 /* Images.xcassets */; };
 		8CB0398D19682961004C5CA4 /* FMBMParallaxViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0398C19682961004C5CA4 /* FMBMParallaxViewTests.swift */; };
+		8CB03997196835FE004C5CA4 /* ExampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB03996196835FE004C5CA4 /* ExampleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +31,13 @@
 		8CB0397519682961004C5CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CB0397619682961004C5CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CB0397919682961004C5CA4 /* FMBMParallaxView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FMBMParallaxView.xcdatamodel; sourceTree = "<group>"; };
-		8CB0397B19682961004C5CA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CB0397B19682961004C5CA4 /* ExampleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCollectionViewController.swift; sourceTree = "<group>"; };
 		8CB0397E19682961004C5CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CB0398019682961004C5CA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8CB0398619682961004C5CA4 /* FMBMParallaxViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMBMParallaxViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB0398B19682961004C5CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CB0398C19682961004C5CA4 /* FMBMParallaxViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMBMParallaxViewTests.swift; sourceTree = "<group>"; };
+		8CB03996196835FE004C5CA4 /* ExampleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				8CB0397619682961004C5CA4 /* AppDelegate.swift */,
-				8CB0397B19682961004C5CA4 /* ViewController.swift */,
+				8CB0397B19682961004C5CA4 /* ExampleCollectionViewController.swift */,
+				8CB03996196835FE004C5CA4 /* ExampleCollectionViewCell.swift */,
 				8CB0397D19682961004C5CA4 /* Main.storyboard */,
 				8CB0398019682961004C5CA4 /* Images.xcassets */,
 				8CB0397819682961004C5CA4 /* FMBMParallaxView.xcdatamodeld */,
@@ -211,7 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB0397C19682961004C5CA4 /* ViewController.swift in Sources */,
+				8CB0397C19682961004C5CA4 /* ExampleCollectionViewController.swift in Sources */,
+				8CB03997196835FE004C5CA4 /* ExampleCollectionViewCell.swift in Sources */,
 				8CB0397719682961004C5CA4 /* AppDelegate.swift in Sources */,
 				8CB0397A19682961004C5CA4 /* FMBMParallaxView.xcdatamodeld in Sources */,
 			);
