@@ -47,6 +47,8 @@ class ExampleCollectionViewController: UIViewController, UICollectionViewDelegat
         var cell = collectionView .dequeueReusableCellWithReuseIdentifier("MyExampleCell", forIndexPath: indexPath) as ExampleCollectionViewCell
         //cell.imageView.image = UIImage(named:imageDataSource[indexPath.row])
         var manager = ContentManager()
+        cell.downloadedImage.image = UIImage(named: "2014.png")
+
         manager.downloadDataWithUrlString (imageDataSource[indexPath.row]) { (data: NSData) in
             dispatch_async(dispatch_get_main_queue()) {
                 cell.downloadedImage.image = UIImage(data: data)
@@ -60,7 +62,8 @@ class ExampleCollectionViewController: UIViewController, UICollectionViewDelegat
     func scrollViewDidScroll(scrollView: UIScrollView!) {
         let deltaX = scrollView.contentSize.width - scrollView.frame.width
         let deltaY = scrollView.contentSize.height - scrollView.frame.height
-        var dict = ["xOffset": deltaX,"yOffset": deltaY]
+        var dict = ["xOffset": scrollView.contentOffset.x / deltaX,"yOffset": scrollView.contentOffset.y / deltaY]
+        println("y:\(deltaY)")
         NSNotificationCenter .defaultCenter().postNotificationName("scrollOffsetChanged", object: nil, userInfo: dict)
     }}
 

@@ -29,8 +29,9 @@ class ExampleCollectionViewCell: UICollectionViewCell {
     func changeImageOffset(notification: NSNotification) {
         let deltaX = notification.userInfo.objectForKey("xOffset").floatValue
         let deltay = notification.userInfo.objectForKey("yOffset").floatValue
-        downloadedImage.horizontalOffset = deltaX
-        downloadedImage.verticalOffset = deltay
+        downloadedImage.horizontalOffset = deltay
+//        downloadedImage.verticalOffset = deltaX
+//        println("x: \(deltaX)y:\(deltay)")
 
     }
     
