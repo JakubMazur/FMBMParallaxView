@@ -9,9 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-                            
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        var manager:ContentManager
+        manager = ContentManager()
+        manager.getDataUrls()
+        
+        manager.downloadDataWithUrlString ("http://lorempixel.com/400/200/sports/1/") { (data: NSData) in
+            dispatch_async(dispatch_get_main_queue()) {
+                //
+                // set image
+                //
+            }
+        }
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
