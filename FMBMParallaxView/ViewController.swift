@@ -12,6 +12,14 @@ class ViewController: UIViewController {
                             
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        var manager:ContentManager
+        manager = ContentManager()
+        manager.getDataUrls()
+        
+        manager.downloadData { (data: NSData) in
+                println(data)
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
