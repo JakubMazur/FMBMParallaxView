@@ -10,10 +10,14 @@
 		8422522619682D4500E399C3 /* ContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422522519682D4500E399C3 /* ContentManager.swift */; };
 		8CB0397719682961004C5CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397619682961004C5CA4 /* AppDelegate.swift */; };
 		8CB0397A19682961004C5CA4 /* FMBMParallaxView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397819682961004C5CA4 /* FMBMParallaxView.xcdatamodeld */; };
-		8CB0397C19682961004C5CA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397B19682961004C5CA4 /* ViewController.swift */; };
-		8CB0397F19682961004C5CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0397D19682961004C5CA4 /* Main.storyboard */; };
 		8CB0398119682961004C5CA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0398019682961004C5CA4 /* Images.xcassets */; };
 		8CB0398D19682961004C5CA4 /* FMBMParallaxViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0398C19682961004C5CA4 /* FMBMParallaxViewTests.swift */; };
+		8CB03998196849AD004C5CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0397D19682961004C5CA4 /* Main.storyboard */; };
+		8CB0399919684B1F004C5CA4 /* ExampleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397B19682961004C5CA4 /* ExampleCollectionViewController.swift */; };
+		8CB0399A19684B1F004C5CA4 /* ExampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB03996196835FE004C5CA4 /* ExampleCollectionViewCell.swift */; };
+		8E0C90251968521500C98004 /* FMBMImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C90241968521500C98004 /* FMBMImageView.swift */; };
+		8E0C90271968527400C98004 /* wwdc 2014.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C90261968527400C98004 /* wwdc 2014.png */; };
+		8E0C9029196852AF00C98004 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C9028196852AF00C98004 /* ExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +36,16 @@
 		8CB0397519682961004C5CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CB0397619682961004C5CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CB0397919682961004C5CA4 /* FMBMParallaxView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FMBMParallaxView.xcdatamodel; sourceTree = "<group>"; };
-		8CB0397B19682961004C5CA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CB0397B19682961004C5CA4 /* ExampleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCollectionViewController.swift; sourceTree = "<group>"; };
 		8CB0397E19682961004C5CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CB0398019682961004C5CA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8CB0398619682961004C5CA4 /* FMBMParallaxViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMBMParallaxViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB0398B19682961004C5CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CB0398C19682961004C5CA4 /* FMBMParallaxViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMBMParallaxViewTests.swift; sourceTree = "<group>"; };
+		8CB03996196835FE004C5CA4 /* ExampleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		8E0C90241968521500C98004 /* FMBMImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMBMImageView.swift; sourceTree = "<group>"; };
+		8E0C90261968527400C98004 /* wwdc 2014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wwdc 2014.png"; sourceTree = "<group>"; };
+		8E0C9028196852AF00C98004 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +97,14 @@
 			children = (
 				8422522419682D3400E399C3 /* Managers */,
 				8CB0397619682961004C5CA4 /* AppDelegate.swift */,
-				8CB0397B19682961004C5CA4 /* ViewController.swift */,
+				8CB0397B19682961004C5CA4 /* ExampleCollectionViewController.swift */,
+				8CB03996196835FE004C5CA4 /* ExampleCollectionViewCell.swift */,
 				8CB0397D19682961004C5CA4 /* Main.storyboard */,
 				8CB0398019682961004C5CA4 /* Images.xcassets */,
 				8CB0397819682961004C5CA4 /* FMBMParallaxView.xcdatamodeld */,
+				8E0C90241968521500C98004 /* FMBMImageView.swift */,
+				8E0C9028196852AF00C98004 /* ExampleViewController.swift */,
+				8E0C90261968527400C98004 /* wwdc 2014.png */,
 				8CB0397419682961004C5CA4 /* Supporting Files */,
 			);
 			path = FMBMParallaxView;
@@ -203,7 +215,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB0397F19682961004C5CA4 /* Main.storyboard in Resources */,
+				8CB03998196849AD004C5CA4 /* Main.storyboard in Resources */,
+				8E0C90271968527400C98004 /* wwdc 2014.png in Resources */,
 				8CB0398119682961004C5CA4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,9 +235,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB0397C19682961004C5CA4 /* ViewController.swift in Sources */,
+				8CB0399919684B1F004C5CA4 /* ExampleCollectionViewController.swift in Sources */,
+				8CB0399A19684B1F004C5CA4 /* ExampleCollectionViewCell.swift in Sources */,
 				8422522619682D4500E399C3 /* ContentManager.swift in Sources */,
 				8CB0397719682961004C5CA4 /* AppDelegate.swift in Sources */,
+				8E0C9029196852AF00C98004 /* ExampleViewController.swift in Sources */,
+				8E0C90251968521500C98004 /* FMBMImageView.swift in Sources */,
 				8CB0397A19682961004C5CA4 /* FMBMParallaxView.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,9 +1,13 @@
-FMBMParallaxView
-================
+//
+//  ExampleViewController.swift
+//  FMBMParallaxView
+//
+//  Created by Kamil Burczyk on 05.07.2014.
+//  Copyright (c) 2014 Kettu Jakub Mazur. All rights reserved.
+//
 
-**FMBMImageView usage**
+import UIKit
 
-```
 class ExampleViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet var imageView: FMBMImageView
@@ -26,4 +30,3 @@ class ExampleViewController: UIViewController, UIScrollViewDelegate {
     }
 
 }
-```
