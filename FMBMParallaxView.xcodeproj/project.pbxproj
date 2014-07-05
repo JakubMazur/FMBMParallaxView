@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CB0397719682961004C5CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397619682961004C5CA4 /* AppDelegate.swift */; };
+		8CB0397A19682961004C5CA4 /* FMBMParallaxView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397819682961004C5CA4 /* FMBMParallaxView.xcdatamodeld */; };
+		8CB0397C19682961004C5CA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0397B19682961004C5CA4 /* ViewController.swift */; };
+		8CB0397F19682961004C5CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0397D19682961004C5CA4 /* Main.storyboard */; };
+		8CB0398119682961004C5CA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0398019682961004C5CA4 /* Images.xcassets */; };
+		8CB0398D19682961004C5CA4 /* FMBMParallaxViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0398C19682961004C5CA4 /* FMBMParallaxViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CB0398719682961004C5CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB0396919682961004C5CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB0397019682961004C5CA4;
+			remoteInfo = FMBMParallaxView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CB0397119682961004C5CA4 /* FMBMParallaxView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMBMParallaxView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB0397519682961004C5CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB0397619682961004C5CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CB0397919682961004C5CA4 /* FMBMParallaxView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FMBMParallaxView.xcdatamodel; sourceTree = "<group>"; };
+		8CB0397B19682961004C5CA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CB0397E19682961004C5CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CB0398019682961004C5CA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CB0398619682961004C5CA4 /* FMBMParallaxViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMBMParallaxViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB0398B19682961004C5CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB0398C19682961004C5CA4 /* FMBMParallaxViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMBMParallaxViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB0396E19682961004C5CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB0398319682961004C5CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CB0396819682961004C5CA4 = {
+			isa = PBXGroup;
+			children = (
+				8CB0397319682961004C5CA4 /* FMBMParallaxView */,
+				8CB0398919682961004C5CA4 /* FMBMParallaxViewTests */,
+				8CB0397219682961004C5CA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB0397219682961004C5CA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB0397119682961004C5CA4 /* FMBMParallaxView.app */,
+				8CB0398619682961004C5CA4 /* FMBMParallaxViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB0397319682961004C5CA4 /* FMBMParallaxView */ = {
+			isa = PBXGroup;
+			children = (
+				8CB0397619682961004C5CA4 /* AppDelegate.swift */,
+				8CB0397B19682961004C5CA4 /* ViewController.swift */,
+				8CB0397D19682961004C5CA4 /* Main.storyboard */,
+				8CB0398019682961004C5CA4 /* Images.xcassets */,
+				8CB0397819682961004C5CA4 /* FMBMParallaxView.xcdatamodeld */,
+				8CB0397419682961004C5CA4 /* Supporting Files */,
+			);
+			path = FMBMParallaxView;
+			sourceTree = "<group>";
+		};
+		8CB0397419682961004C5CA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CB0397519682961004C5CA4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CB0398919682961004C5CA4 /* FMBMParallaxViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB0398C19682961004C5CA4 /* FMBMParallaxViewTests.swift */,
+				8CB0398A19682961004C5CA4 /* Supporting Files */,
+			);
+			path = FMBMParallaxViewTests;
+			sourceTree = "<group>";
+		};
+		8CB0398A19682961004C5CA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CB0398B19682961004C5CA4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB0397019682961004C5CA4 /* FMBMParallaxView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB0399019682961004C5CA4 /* Build configuration list for PBXNativeTarget "FMBMParallaxView" */;
+			buildPhases = (
+				8CB0396D19682961004C5CA4 /* Sources */,
+				8CB0396E19682961004C5CA4 /* Frameworks */,
+				8CB0396F19682961004C5CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMBMParallaxView;
+			productName = FMBMParallaxView;
+			productReference = 8CB0397119682961004C5CA4 /* FMBMParallaxView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CB0398519682961004C5CA4 /* FMBMParallaxViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB0399319682961004C5CA4 /* Build configuration list for PBXNativeTarget "FMBMParallaxViewTests" */;
+			buildPhases = (
+				8CB0398219682961004C5CA4 /* Sources */,
+				8CB0398319682961004C5CA4 /* Frameworks */,
+				8CB0398419682961004C5CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB0398819682961004C5CA4 /* PBXTargetDependency */,
+			);
+			name = FMBMParallaxViewTests;
+			productName = FMBMParallaxViewTests;
+			productReference = 8CB0398619682961004C5CA4 /* FMBMParallaxViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB0396919682961004C5CA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Kettu Jakub Mazur";
+				TargetAttributes = {
+					8CB0397019682961004C5CA4 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8CB0398519682961004C5CA4 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8CB0397019682961004C5CA4;
+					};
+				};
+			};
+			buildConfigurationList = 8CB0396C19682961004C5CA4 /* Build configuration list for PBXProject "FMBMParallaxView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CB0396819682961004C5CA4;
+			productRefGroup = 8CB0397219682961004C5CA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB0397019682961004C5CA4 /* FMBMParallaxView */,
+				8CB0398519682961004C5CA4 /* FMBMParallaxViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB0396F19682961004C5CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB0397F19682961004C5CA4 /* Main.storyboard in Resources */,
+				8CB0398119682961004C5CA4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB0398419682961004C5CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB0396D19682961004C5CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB0397C19682961004C5CA4 /* ViewController.swift in Sources */,
+				8CB0397719682961004C5CA4 /* AppDelegate.swift in Sources */,
+				8CB0397A19682961004C5CA4 /* FMBMParallaxView.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB0398219682961004C5CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB0398D19682961004C5CA4 /* FMBMParallaxViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CB0398819682961004C5CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB0397019682961004C5CA4 /* FMBMParallaxView */;
+			targetProxy = 8CB0398719682961004C5CA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CB0397D19682961004C5CA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB0397E19682961004C5CA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CB0398E19682961004C5CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CB0398F19682961004C5CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB0399119682961004C5CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FMBMParallaxView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CB0399219682961004C5CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FMBMParallaxView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CB0399419682961004C5CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FMBMParallaxView.app/FMBMParallaxView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FMBMParallaxViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		8CB0399519682961004C5CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FMBMParallaxView.app/FMBMParallaxView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FMBMParallaxViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB0396C19682961004C5CA4 /* Build configuration list for PBXProject "FMBMParallaxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB0398E19682961004C5CA4 /* Debug */,
+				8CB0398F19682961004C5CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB0399019682961004C5CA4 /* Build configuration list for PBXNativeTarget "FMBMParallaxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB0399119682961004C5CA4 /* Debug */,
+				8CB0399219682961004C5CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CB0399319682961004C5CA4 /* Build configuration list for PBXNativeTarget "FMBMParallaxViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB0399419682961004C5CA4 /* Debug */,
+				8CB0399519682961004C5CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8CB0397819682961004C5CA4 /* FMBMParallaxView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8CB0397919682961004C5CA4 /* FMBMParallaxView.xcdatamodel */,
+			);
+			currentVersion = 8CB0397919682961004C5CA4 /* FMBMParallaxView.xcdatamodel */;
+			path = FMBMParallaxView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8CB0396919682961004C5CA4 /* Project object */;
+}
