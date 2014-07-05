@@ -28,17 +28,7 @@ class FMBMImageView: UIImageView {
             self.layer.contentsRect = CGRectMake(min(maxV, max(0, verticalOffset)), min(maxH, max(0, horizontalOffset)), 1, 1)
         }
     }
-    
-    override var image: UIImage! {
-        get {
-            self.layer.contentsRect = CGRectMake(0, 0, 1, 1)
-            return super.image
-        }
-        set {
-            super.image = image
-        }
-    }
-    
+
     init(frame: CGRect) {
         clipping = 0
         horizontalOffset = 0

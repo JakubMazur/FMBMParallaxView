@@ -57,6 +57,10 @@ class ExampleCollectionViewController: UIViewController, UICollectionViewDelegat
         return cell
     }
     
-
-}
+    func scrollViewDidScroll(scrollView: UIScrollView!) {
+        let deltaX = scrollView.contentSize.width - scrollView.frame.width
+        let deltaY = scrollView.contentSize.height - scrollView.frame.height
+        var dict = ["xOffset": deltaX,"yOffset": deltaY]
+        NSNotificationCenter .defaultCenter().postNotificationName("scrollOffsetChanged", object: nil, userInfo: dict)
+    }}
 
