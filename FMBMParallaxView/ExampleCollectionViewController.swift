@@ -29,15 +29,7 @@ class ExampleCollectionViewController: UIViewController, UICollectionViewDelegat
     
     func connectForData() {
         
-        for (var i=0;i<500;i++) {
-            let foo = "http://lorempixel.com/400/200/sports/" + String(i) + "/"
-            imageDataSource.append(foo)
-            println(imageDataSource[i])
-        }
-        
-        
-        var manager : ContentManager
-        manager = ContentManager()
+        var manager = ContentManager()
         imageDataSource = manager.getDataUrls()
         
         collectionView.reloadData()
@@ -54,8 +46,7 @@ class ExampleCollectionViewController: UIViewController, UICollectionViewDelegat
         
         var cell = collectionView .dequeueReusableCellWithReuseIdentifier("MyExampleCell", forIndexPath: indexPath) as ExampleCollectionViewCell
         //cell.imageView.image = UIImage(named:imageDataSource[indexPath.row])
-        var manager : ContentManager
-        manager = ContentManager()
+        var manager = ContentManager()
         manager.downloadDataWithUrlString (imageDataSource[indexPath.row]) { (data: NSData) in
             dispatch_async(dispatch_get_main_queue()) {
                 cell.downloadedImage.image = UIImage(data: data)
