@@ -24,9 +24,8 @@ class ExampleViewController: UIViewController, UIScrollViewDelegate {
     func scrollViewDidScroll(scrollView: UIScrollView!) {
         let deltaX = scrollView.contentSize.width - scrollView.frame.width
         let deltaY = scrollView.contentSize.height - scrollView.frame.height
-        
-        imageView.horizontalOffset = scrollView.contentOffset.y / deltaX
-        imageView.verticalOffset = scrollView.contentOffset.x / deltaY
+        imageView.horizontalOffset = Float(scrollView.contentOffset.y / deltaX)
+        imageView.verticalOffset = Float(scrollView.contentOffset.x / deltaY)
     }
 
 }
