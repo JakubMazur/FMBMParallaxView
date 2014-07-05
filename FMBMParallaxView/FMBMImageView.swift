@@ -13,19 +13,25 @@ class FMBMImageView: UIImageView {
     var clipping: Float
     var horizontalOffset: Float {
         didSet {
-            let maxV = 1 -  self.frame.size.width / super.image.size.width
-            let maxH = 1 -  self.frame.size.height / super.image.size.height
+            let maxV = Float(1 -  self.frame.size.width / super.image.size.width)
+            let maxH = Float(1 -  self.frame.size.height / super.image.size.height)
             
-            self.layer.contentsRect = CGRectMake(min(maxV, max(0, verticalOffset)), min(maxH, max(0, horizontalOffset)), 1, 1)
+            var xValue = CGFloat(min(maxV, max(0, verticalOffset)))
+            var yValue = CGFloat(min(maxH, max(0, horizontalOffset)))
+            
+            self.layer.contentsRect = CGRectMake(xValue,yValue, 1, 1)
         }
     }
     
     var verticalOffset: Float {
         didSet {
-            let maxV = 1 -  self.frame.size.width / super.image.size.width
-            let maxH = 1 -  self.frame.size.height / super.image.size.height
+            let maxV = Float(1 -  self.frame.size.width / super.image.size.width)
+            let maxH = Float(1 -  self.frame.size.height / super.image.size.height)
             
-            self.layer.contentsRect = CGRectMake(min(maxV, max(0, verticalOffset)), min(maxH, max(0, horizontalOffset)), 1, 1)
+            var xValue = CGFloat(min(maxV, max(0, verticalOffset)))
+            var yValue = CGFloat(min(maxH, max(0, horizontalOffset)))
+            
+            self.layer.contentsRect = CGRectMake(xValue, yValue, 1, 1)
         }
     }
 

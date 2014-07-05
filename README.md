@@ -3,7 +3,7 @@ FMBMParallaxView
 
 **FMBMImageView usage**
 
-```
+```swift
 class ExampleViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet var imageView: FMBMImageView
