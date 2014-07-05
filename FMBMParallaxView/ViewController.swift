@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+                            
     override func viewDidLoad() {
         super.viewDidLoad()
     
@@ -19,9 +19,7 @@ class ViewController: UIViewController {
         
         manager.downloadDataWithUrlString ("http://lorempixel.com/400/200/sports/1/") { (data: NSData) in
             dispatch_async(dispatch_get_main_queue()) {
-                //
-                // set image
-                //
+
             }
         }
         
