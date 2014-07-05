@@ -26,7 +26,7 @@ class ContentManager {
     func getDataUrls() -> (urls: String[]) {
         var urls:String[]
         urls = String[]()
-        for val in 1..100
+        for val in 1..10
             {
                 urls.append("http://lorempixel.com/400/200/sports/\(val)/")
                 println("http://lorempixel.com/400/200/sports/\(val)/")
